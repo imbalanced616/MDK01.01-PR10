@@ -1,0 +1,26 @@
+﻿<Window x:Class="Рылеев_ПР10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Рылеев_ПР10"
+        mc:Ignorable="d"
+        Title="Практическая работа №10." Height="785" Width="700" Background="#007536">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="135"/>
+            <RowDefinition Height="650*"/>
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="1"
+               Name="frmMain"
+               NavigationUIVisibility="Hidden">
+
+        </Frame>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Практическая работа №10" Style="{StaticResource txbTitle}"/>
+            <TextBlock Text="Выполнил студент 2 курса группы ИСП.20А" Style="{StaticResource txbTitle}"/>
+            <TextBlock Text="Рылеев Александр" Style="{StaticResource txbTitle}"/>
+            <TextBlock Text="Вариант №3" Style="{StaticResource txbTitle}"/>
+        </StackPanel>
+    </Grid>
+</Window>
